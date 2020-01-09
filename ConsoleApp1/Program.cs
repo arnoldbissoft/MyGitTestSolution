@@ -10,7 +10,8 @@ namespace ConsoleApp1
             {
                 PersonId = 1,
                 FirstName = "John",
-                LastName = "Doe"
+                LastName = "Doe",
+                DateOfBirth = new DateTime(1978, 1, 1)
             };
 
             Console.WriteLine("Hello World!");
