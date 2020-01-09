@@ -6,6 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            var person = new Person
+            {
+                PersonId = 1,
+                FirstName = "John",
+                LastName = "Doe"
+            };
+
             Console.WriteLine("Hello World!");
         }
     }
